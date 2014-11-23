@@ -1,0 +1,23 @@
+{
+    "node": true,
+    "browser": true,
+    "onevar": true,
+    "sub": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "freeze": true,
+    "indent": 4,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonew": true,
+    "undef": true,
+    "strict": true,
+    "maxparams": 6,
+    "maxdepth": 4,
+    "maxstatements": 50,
+    "maxcomplexity": 10,
+    "predef": ["describe", "expect", "it"]
+}

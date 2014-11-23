@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3 Column Layout</title>
+    <style>
+        .flex-container {
+            display: flex;
+            display: -webkit-flex;
+        }
+        .flex-container > .no-flex {
+            flex: none;
+            -webkit-flex: none;
+        }
+        .flex-container > * {
+            padding: 5px;
+        }
+        .col-left {
+            width: 180px;
+            background: #CCC;
+        }
+        .col-right {
+            width: 200px;
+            color: #EEE;
+            background: #222;
+        }
+        .col-middle {
+            background: #EEE;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="col-left no-flex">
+            <p>Nulla tincidunt a lorem sed ullamcorper. Duis commodo felis vel turpis commodo, vel
+            tempus diam malesuada. Nam ac ullamcorper est. Vivamus fringilla nisl ac aliquam porttitor.
+            Integer pellentesque sapien sollicitudin sapien tincidunt, id tincidunt quam posuere. Nulla
+            lectus eros, congue a mi quis, accumsan auctor sem. Aenean hendrerit massa ac tristique
+            sodales. Etiam ornare tellus leo, sit amet efficitur neque semper a. Integer venenatis
+            ex in tortor fermentum convallis.</p>
+        </div>
+        <div class="col-middle">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum, eros eget convallis
+            scelerisque, nibh risus tincidunt nibh, eu vulputate lectus massa fermentum odio. Praesent
+            luctus quam ac laoreet aliquet. Pellentesque sollicitudin consectetur mi quis pulvinar.
+            Maecenas tincidunt blandit nibh, at eleifend sapien venenatis et. In vitae lacinia magna.
+            Suspendisse in tortor quis metus ornare dignissim id ac sapien. Proin consequat magna id neque
+            fermentum venenatis. Nulla id ullamcorper ipsum, quis commodo ipsum. Ut faucibus magna eget
+            odio feugiat, nec condimentum ante sagittis. Vivamus quis pulvinar purus. Maecenas lectus
+            lacus, pharetra at ante eget, laoreet faucibus mauris. Curabitur lobortis dui a dolor commodo,
+            ut hendrerit orci consectetur. Aenean volutpat odio sit amet turpis scelerisque auctor.</p>
+
+            <p>Vestibulum tempus, arcu et sagittis euismod, orci orci lacinia ligula, vel interdum
+            elit leo eget enim.</p>
+
+            <p>Fusce lobortis nec sapien quis accumsan. Ut ipsum augue, placerat quis tempor vel,
+            vulputate vel enim. Phasellus et posuere leo, sed pharetra felis. In quis lectus enim.
+            In sagittis pharetra quam, sit amet gravida ex volutpat a. Etiam non mauris feugiat,
+            accumsan quam vitae, ullamcorper lectus. Fusce aliquam porttitor mi sit amet dictum.
+            In vulputate varius arcu ut lacinia. Suspendisse fringilla scelerisque tellus et cursus.
+            Curabitur placerat, eros at consequat pellentesque, felis purus ullamcorper elit,
+            vitae efficitur est augue vel orci. Ut sit amet libero lorem.</p>
+        </div>
+        <div class="col-right no-flex">
+            <p>Duis viverra enim vitae mauris sagittis vulputate. Integer tincidunt purus enim, commodo
+            consequat massa dignissim in. Aliquam urna massa, interdum eget porta iaculis, pretium
+            id urna. Nulla rhoncus orci posuere augue consectetur ultrices. Mauris eleifend neque a
+            augue porttitor, eget sodales tellus tempus. Nam lobortis ligula sit amet eros blandit
+            porta. Nulla non consectetur eros. In iaculis egestas dolor sed mattis.</p>
+
+            <p>Pellentesque sagittis faucibus facilisis. Praesent tempus vehicula enim sed iaculis.
+            Vestibulum non mattis nisl. Phasellus blandit sem urna, quis luctus neque mollis eget. In
+            vel lectus libero. Etiam id placerat sem. Mauris at odio ex. In hac habitasse platea
+            dictumst.</p>
+        </div>
+    </div>
+</body>
+</html>
